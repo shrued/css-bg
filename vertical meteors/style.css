@@ -37,6 +37,11 @@ body {
   height: 100%;
   top: 0;
   left: 50%;
+  /* For diagonal meteors
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg); */
+  /* For visible trajectory
+  background: rgba(255, 255, 255, 0.1) */
   overflow: hidden;
 }
 .line::after {
